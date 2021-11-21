@@ -12,39 +12,7 @@ namespace HackerRankAlgo
         {
             //first solution
             return DateTime.Parse(s).ToString("HH:mm:ss");
-            //==========
-
-
-            //Another Solution pseudo code
-            //int hour = your hour value;
-            //int min = your minute value;
-            //String ampm = your am / pm value;
-
-            //hour = ampm == "AM" ? hour : (hour % 12) + 12; //convert 12-hour time to 24-hour
-
-            //var dateTime = new DateTime(0, 0, 0, hour, min, 0);
-            //var timeString = dateTime.ToString("HH:mm");
-
-
-
-
-            //string ampm = s.Substring(s.Length - 2);
-            //string hour = s.Substring(0, 2);
-            //string minute = s.Substring(3, 5);
-            //string second = s.Substring(6, 8);
-            //int hours;
-
-
-            // if (ampm.ToUpper() == "PM" && hour != "12")
-            //     hours = Convert.ToInt32(hour) + 12;
-            // else if (ampm.ToUpper() == "PM" && hour == "12")
-            //     hours = 12;
-            // else if (ampm.ToUpper() == "AM" && hour == "12")
-            //     hours = 00;
-
-
-            // return $"{hour}:{minute}:{second}";
-
+            //==========    
 
         }
     }
