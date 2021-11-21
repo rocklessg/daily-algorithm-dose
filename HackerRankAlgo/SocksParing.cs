@@ -11,49 +11,17 @@ namespace HackerRankAlgo
         public static int SockMerchant(int n, List<int> ar)
         {
 
-            HashSet<int> unmatched = new HashSet<int>();
+            HashSet<int> unMatched = new HashSet<int>();
             int pairs = 0;
             for (int i = 0; i < ar.Count; i++)
             {
-                if (!unmatched.Add(ar[i]))
+                if (!unMatched.Add(ar[i]))
                 {
-                    unmatched.Remove(ar[i]);
+                    unMatched.Remove(ar[i]);
                     pairs++;
                 }
             }
             return pairs;
-
-            //    int constantNumber = 0;
-            //    int counter = 0;
-            //    int pairCounter = 0;
-
-
-            //    for (int i = 1; i < ar.Count - 1; i++)
-            //    {
-            //        if (ar[i] >= constantNumber)
-            //        {
-            //            counter++;
-
-            //            if (counter % 2 == 0)
-            //            {
-            //                int holder = counter / 2;
-
-            //                pairCounter += holder;
-
-            //                counter = 1;
-            //                constantNumber = ar[i];
-            //            }
-            //            else if (counter - 1 > 0)
-            //            {
-            //                int holder = (counter - 1) / 2;
-            //                pairCounter += holder;
-            //                counter = 1;
-            //                constantNumber = ar[i];
-            //            }
-            //        }
-            //    }
-            //    return pairCounter;
-            //}
 
         }
     }
