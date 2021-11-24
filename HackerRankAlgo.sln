@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerRankAlgo", "HackerRankAlgo\HackerRankAlgo.csproj", "{67B7A506-3E2C-4B5E-AF8E-2F365156BF09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewPreparationKit", "InterviewPreparationKit\InterviewPreparationKit.csproj", "{12EAB940-0E19-4F7F-BE74-BF6B0DB0A597}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewPreparationKit", "InterviewPreparationKit\InterviewPreparationKit.csproj", "{12EAB940-0E19-4F7F-BE74-BF6B0DB0A597}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
