@@ -1,4 +1,5 @@
-﻿using System;
+﻿using InterviewPreparationKit;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -9,14 +10,20 @@ namespace HackerRankAlgo
     {
         public static void Main(string[] args)
         {
+            
 
-            var val = LaptopRentalChallenge.LaptopRentals(new int[][] { new int[] { 1, 5 }, new int[] { 5, 6 }, new int[] { 6, 7 }, new int[] { 7, 9 } });
-            Console.WriteLine(val);
+            //var val = LaptopRentalChallenge.LaptopRentals(new int[][] { new int[] { 1, 5 }, new int[] { 5, 6 }, new int[] { 6, 7 }, new int[] { 7, 9 } });
+            // Console.WriteLine(val);
             // Entry.RunApp();
             // StairCase.StairCCase(6);
 
-            //List<int> myList = new List<int> { 7, 69, 2, 221, 8974 };
+            //List<int> myList = new List<int> { 1, 2, 3, 221, 8974 };
+           // var result = RotateLeftArray.rotLeft(myList, 4);
 
+           // var nums = new List<int> { 2, 1, 8, 4, 3, 5, 7, 9 };
+            // MinimumBribe.MinimumBribes(nums);
+
+            //Console.WriteLine(result);
             //MinMax.MiniMaxSum(myList);
 
             //foreach (var item in myList)
@@ -32,17 +39,8 @@ namespace HackerRankAlgo
             //{
             //    Console.WriteLine(result);
             //}
-
-
-
-            //for (int i = 0; i < 2; i++)
-            //{
-            //    for (int j = i; j < 4; j++)
-            //        Console.WriteLine("Value of i: {0}, J: {1} ", i, j);
-            //}
-            //var answer = TimeZoneConversion.TimeConversion("07:05:45PM");
-            //Console.WriteLine(answer);
-
+            //
+            GetMax(new List<int> { 100, 2, 10, 4, });
         }
 
     }
