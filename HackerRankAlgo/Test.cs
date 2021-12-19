@@ -1,43 +1,53 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections; //.Generic;
 
 class Solution
 {
-   
-    public static List<int> Cards(List<int> values)
-    {
-        var listOfNumbers = new List<int>();
-        var listOfLetters = new List<int>();
 
-        for (int i = 0; i < values.Count; i++)
-        {
-            if (values[i] > 0)
-            {
-                listOfNumbers.Add(values[i]);
-                listOfNumbers.Sort();
-            }
-        }
+    //public static int[] SplitInteger(int num, int parts)
+   // {
+        //var array = new int[] {};
+        //for (var i = 0; i < parts; ++i)
+        //    var roundUp = (num / parts) + (i < num % parts);
+        //    array[i] = Math.Round();
+        //return array;
 
-        return listOfNumbers;
-    }
 
-    public static List<string> Cards(List<string> values)
-    {
-        var listOfLetters = new List<string>();
+    //}
+    //    public static List<int> Cards(List<int> values)
+    //    {
+    //        var listOfNumbers = new List<int>();
+    //        var listOfLetters = new List<int>();
 
-        for (int i = 0; i < values.Count; i++)
-        {
-            if (values[i] == "Jack" || values[i] == "Queen" || values[i] == "King")
-            {
-                listOfLetters.Add(values[i]);
-                listOfLetters.Sort();
-            }
-        }          
-       
-        return listOfLetters;
-    }
+    //        for (int i = 0; i < values.Count; i++)
+    //        {
+    //            if (values[i] > 0)
+    //            {
+    //                listOfNumbers.Add(values[i]);
+    //                listOfNumbers.Sort();
+    //            }
+    //        }
 
-    List<int> myList = new List<int> { 84, 39, 57, 100 };
+    //        return listOfNumbers;
+    //    }
+
+    //    public static List<string> Cards(List<string> values)
+    //    {
+    //        var listOfLetters = new List<string>();
+
+    //        for (int i = 0; i < values.Count; i++)
+    //        {
+    //            if (values[i] == "Jack" || values[i] == "Queen" || values[i] == "King")
+    //            {
+    //                listOfLetters.Add(values[i]);
+    //                listOfLetters.Sort();
+    //            }
+    //        }          
+
+    //        return listOfLetters;
+    //    }
+
+    //    List<int> myList = new List<int> { 84, 39, 57, 100 };
 }
 
 
