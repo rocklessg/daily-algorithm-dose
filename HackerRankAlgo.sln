@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerRankAlgo", "HackerRan
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewPreparationKit", "InterviewPreparationKit\InterviewPreparationKit.csproj", "{12EAB940-0E19-4F7F-BE74-BF6B0DB0A597}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingLinq", "UsingLinq\UsingLinq.csproj", "{9795C8FB-6932-43DC-BE7C-1F51DF12D95B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingLinq", "UsingLinq\UsingLinq.csproj", "{9795C8FB-6932-43DC-BE7C-1F51DF12D95B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miselleneous", "Miselleneous\Miselleneous.csproj", "{2D0163E6-5391-45F0-AF5C-4342168090FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miselleneous", "Miselleneous\Miselleneous.csproj", "{2D0163E6-5391-45F0-AF5C-4342168090FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProblemSolving", "AlgorithmWarmup\ProblemSolving.csproj", "{ADAFBC1E-925D-4CD6-8A3E-BB4367560356}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2D0163E6-5391-45F0-AF5C-4342168090FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D0163E6-5391-45F0-AF5C-4342168090FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D0163E6-5391-45F0-AF5C-4342168090FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADAFBC1E-925D-4CD6-8A3E-BB4367560356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADAFBC1E-925D-4CD6-8A3E-BB4367560356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADAFBC1E-925D-4CD6-8A3E-BB4367560356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADAFBC1E-925D-4CD6-8A3E-BB4367560356}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
