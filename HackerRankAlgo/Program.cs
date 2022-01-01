@@ -11,8 +11,16 @@ namespace HackerRankAlgo
     {
         public static void Main(string[] args)
         {
-            var result = Anagram.SherlockAndAnagrams("mom");
-            Console.WriteLine(result);
+
+            var nums = new List<int> { 10, 5, 20, 20, 4, 5, 2, 25, 1 };
+            var result = RecordBreaking.BreakingRecords(nums);
+            foreach (var item in result)
+            {
+                Console.WriteLine(item);
+            }
+
+            //var result = Anagram.SherlockAndAnagrams("mom");
+            //Console.WriteLine(result);
 
             //var val = LaptopRentalChallenge.LaptopRentals(new int[][] { new int[] { 1, 5 }, new int[] { 5, 6 }, new int[] { 6, 7 }, new int[] { 7, 9 } });
             // Console.WriteLine(val);
@@ -51,21 +59,23 @@ namespace HackerRankAlgo
 
             //MagazineCheck.CheckMagazine(new List<string> { "two", "times", "three", "is", "not", "four" }, new List<string> { "two", "times", "two", "is", "four" });
             //MagazineCheck.CheckMagazine(new List<string> { "attack", "at", "dawn" }, new List<string> { "Attack", "at", "dawn" });
-           // MagazineCheck.CheckMagazine(new List<string> { "apgo", "clm", "w", "lxkvg", "mwz", "elo", "bg", "elo", "lxkvg", "elo", "apgo", "apgo", "w", "elo", "bg" }, 
-                                       // new List<string> { "elo", "lxkvg", "bg", "mwz", "clm", "w" });
+            // MagazineCheck.CheckMagazine(new List<string> { "apgo", "clm", "w", "lxkvg", "mwz", "elo", "bg", "elo", "lxkvg", "elo", "apgo", "apgo", "w", "elo", "bg" }, 
+            // new List<string> { "elo", "lxkvg", "bg", "mwz", "clm", "w" });
         }
 
-       
 
 
-    //    function median($numbers)
-    //    {
-    //        sort($numbers);
-    //        $totalNumbers = count($numbers);
-    //        $mid = floor($totalNumbers / 2);
 
-    //        return ($totalNumbers % 2) === 0 ? ($numbers[$mid - 1] + $numbers[$mid]) / 2 : $numbers[$mid];
-    //    }
+        //    function median($numbers)
+        //    {
+        //        sort($numbers);
+        //        $totalNumbers = count($numbers);
+        //        $mid = floor($totalNumbers / 2);
+
+        //        return ($totalNumbers % 2) === 0 ? ($numbers[$mid - 1] + $numbers[$mid]) / 2 : $numbers[$mid];
+        //    }
+
+        
 
     }
 }

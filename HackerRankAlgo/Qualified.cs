@@ -6,13 +6,17 @@ using System.Threading.Tasks;
 
 namespace HackerRankAlgo
 {
-    internal class Qualified
+    public class Qualified
     {
     }
- }
-    //For this exercise you will be strengthening your page-fu mastery. You will complete the PaginationHelper class, which is a utility class helpful for querying paging information related to an array.
 
-    //The class is designed to take in an array of values and an integer indicating how many items will be allowed per each page. The types of values contained within the collection/array are not relevant.
+    //For this exercise you will be strengthening your page-fu mastery.
+    //You will complete the PaginationHelper class, which is a utility
+    //class helpful for querying paging information related to an array.
+
+    //The class is designed to take in an array of values and an integer
+    //indicating how many items will be allowed per each page. The types
+    //of values contained within the collection/array are not relevant.
 
     //The following are some examples of how this class is used:
 
@@ -32,30 +36,44 @@ namespace HackerRankAlgo
 
     public class PaginationHelper<T>
     {
+        public List<T> Collection { get; set; }
+        public int ItemsPerPage { get; set; }
 
         public PaginationHelper(List<T> collection, int itemsPerPage)
         {
+            Collection = collection;
+            ItemsPerPage = itemsPerPage;
         }
 
         public int ItemCount()
         {
-
-            return -1;
+            return Collection.Count;
         }
 
-        public int PageCount()
+        public int PageCount(int ItemsPerpage)
         {
-
-            return -1;
+            var result = Collection.Count - ItemsPerPage / 2;
+            return result;
         }
 
         public int PageItemCount(int pageIndex)
         {
+            if (pageIndex < 1)
+            {
+                return ItemsPerPage;
+            }
+            else if (pageIndex > 0 && pageIndex !> ItemsPerPage)
+            {
+                return ItemsPerPage - 2;
+            }
             return -1;
         }
 
         public int PageIndex(int itemIndex)
         {
+            // if should be use here to check
+            // Algorithm time is up for now 
             return -1;
         }
     }
+} 
