@@ -1,5 +1,6 @@
 ﻿using InterviewPreparationKit;
 using InterviewPreparationKit.DictAndHashmap;
+using Miselleneous;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -11,13 +12,24 @@ namespace HackerRankAlgo
     {
         public static void Main(string[] args)
         {
+            var nums = new List<string> { "Banana", "Higland", "Mango", "Lia", "Campala", "Santana" }.ToArray();
+            var result = ReverseArray.ArrayReverseUnderTheHood(nums);
 
-            var nums = new List<int> { 10, 5, 20, 20, 4, 5, 2, 25, 1 };
-            var result = RecordBreaking.BreakingRecords(nums);
             foreach (var item in result)
             {
-                Console.WriteLine(item);
+                Console.Write(item + " ");
             }
+            // the reversed array will be => Santana Campala Lia Mango Higland Banana
+
+
+
+
+            //var nums = new List<int> { 10, 5, 20, 20, 4, 5, 2, 25, 1 };
+            //var result = RecordBreaking.BreakingRecords(nums);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
 
             //var result = Anagram.SherlockAndAnagrams("mom");
             //Console.WriteLine(result);
@@ -75,7 +87,7 @@ namespace HackerRankAlgo
         //        return ($totalNumbers % 2) === 0 ? ($numbers[$mid - 1] + $numbers[$mid]) / 2 : $numbers[$mid];
         //    }
 
-        
+
 
     }
 }
