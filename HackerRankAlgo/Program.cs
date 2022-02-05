@@ -1,5 +1,7 @@
-﻿using InterviewPreparationKit;
+﻿using HiredAlgo;
+using InterviewPreparationKit;
 using InterviewPreparationKit.DictAndHashmap;
+using LeetCodeAlgo;
 using Miselleneous;
 using System;
 using System.Collections.Generic;
@@ -12,16 +14,30 @@ namespace HackerRankAlgo
     {
         public static void Main(string[] args)
         {
-            var nums = new List<string> { "Banana", "Higland", "Mango", "Lia", "Campala", "Santana" }.ToArray();
-            var result = ReverseArray.ArrayReverseUnderTheHood(nums);
 
-            foreach (var item in result)
-            {
-                Console.Write(item + " ");
-            }
+
+            var result = Assessment.Solution(new long[] { 6, 0, -1, 10 });
+            Console.WriteLine(result);
+
+            //var result = MaxWater.MaxArea(new int[] { 1, 8, 6, 2, 5, 4, 8, 3, 7 });
+            //Console.WriteLine(result);
+
+            //var nums = new List<int> { 10, 5, 20, 20, 4, 5, 2, 1 };
+            //var result = UnderHoodOfSortingElements.SortArray(nums);
+            //foreach (var item in result)
+            //{
+            //    Console.Write(item + " ");
+            //}
+
+
+            //var nums = new List<string> { "Banana", "Higland", "Mango", "Lia", "Campala", "Santana" }.ToArray();
+            //var result = ReverseArray.ArrayReverseUnderTheHood(nums);
+
+            //foreach (var item in result)
+            //{
+            //    Console.Write(item + " ");
+            //}
             // the reversed array will be => Santana Campala Lia Mango Higland Banana
-
-
 
 
             //var nums = new List<int> { 10, 5, 20, 20, 4, 5, 2, 25, 1 };

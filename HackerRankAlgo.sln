@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miselleneous", "Miselleneou
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProblemSolving", "AlgorithmWarmup\ProblemSolving.csproj", "{ADAFBC1E-925D-4CD6-8A3E-BB4367560356}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qualified", "Qualified\Qualified.csproj", "{A18DA7DB-3698-4D99-A867-B3D5348BCA95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Qualified", "Qualified\Qualified.csproj", "{A18DA7DB-3698-4D99-A867-B3D5348BCA95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCodeAlgo", "LeetCodeAlgo\LeetCodeAlgo.csproj", "{68A3A4AD-CD2E-4F93-A079-115B5C99EDFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiredAlgo", "HiredAlgo\HiredAlgo.csproj", "{65820FE5-16D8-4219-8E64-B4312F4CF402}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{A18DA7DB-3698-4D99-A867-B3D5348BCA95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A18DA7DB-3698-4D99-A867-B3D5348BCA95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A18DA7DB-3698-4D99-A867-B3D5348BCA95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A3A4AD-CD2E-4F93-A079-115B5C99EDFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A3A4AD-CD2E-4F93-A079-115B5C99EDFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A3A4AD-CD2E-4F93-A079-115B5C99EDFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A3A4AD-CD2E-4F93-A079-115B5C99EDFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65820FE5-16D8-4219-8E64-B4312F4CF402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65820FE5-16D8-4219-8E64-B4312F4CF402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65820FE5-16D8-4219-8E64-B4312F4CF402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65820FE5-16D8-4219-8E64-B4312F4CF402}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
