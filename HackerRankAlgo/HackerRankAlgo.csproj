@@ -5,4 +5,11 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HiredAlgo\HiredAlgo.csproj" />
+    <ProjectReference Include="..\InterviewPreparationKit\InterviewPreparationKit.csproj" />
+    <ProjectReference Include="..\LeetCodeAlgo\LeetCodeAlgo.csproj" />
+    <ProjectReference Include="..\Miselleneous\Miselleneous.csproj" />
+  </ItemGroup>
+
 </Project>

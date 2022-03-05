@@ -16,7 +16,7 @@ namespace HackerRankAlgo
             myList.Add(new List<int> { 5, 2, 10, 63 });
             myList.Add(new List<int> { 4, 4, 18, 6 });
 
-            Console.WriteLine(TwoDMatrix.TwoDArray(myList));
+           // Console.WriteLine(TwoDMatrix.TwoDArray(myList));
         }
     }
 }
