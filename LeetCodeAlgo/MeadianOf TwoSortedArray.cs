@@ -10,7 +10,7 @@ namespace LeetCodeAlgo
     {
         public static double FindMedianSortedArrays(int[] nums1, int[] nums2)
         {
-            
+            // 1 2 3 4 6
             var arrayList = new List<int>();
             arrayList.AddRange(nums1);
             arrayList.AddRange(nums2);
@@ -18,7 +18,7 @@ namespace LeetCodeAlgo
             int[] mergeNum = arrayList.ToArray();
             double numCount = mergeNum.Length;
 
-            int middleNum = (int)Math.Floor(numCount / 2);
+            int middleNum = (int)Math.Round(numCount / 2);
 
             return numCount % 2 == 0 ? mergeNum[(int)(middleNum - 1)] + mergeNum[(int)(middleNum)] : mergeNum[(int)(middleNum)];
 
