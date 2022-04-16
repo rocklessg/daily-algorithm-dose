@@ -14,8 +14,10 @@ namespace HackerRankAlgo
     {
         public static void Main(string[] args)
         {
-            var result = DuplicateRemove.RemoveDuplicate("GeeksForGeeks");
+            var result = DuplicateRemove.RemoveAdjacentDuplicate("aabbaaaccdddaabbbb");
             Console.WriteLine(result);
+            //var result = DuplicateRemove.RemoveDuplicatesChar("aaabbbcccdddeeefffggghhhiiijjjkkkiiilllmmmnnnooopppqqqqqqqrrrrrssssttttuuuvwwxxxxxxyzzABCDEFGHIJKLMNOPQRSTUVWXYZ");
+            //Console.WriteLine(result);
 
             //var result = Assessment.Solution(new long[] { 6, 0, -1, 10 });
             //Console.WriteLine(result);

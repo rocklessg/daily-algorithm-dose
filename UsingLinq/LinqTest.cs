@@ -8,7 +8,7 @@ namespace UsingLinq
 {
     public class LinqTest
     {
-        public void LinqMethod()
+        public static void LinqMethod()
         {
 
 
