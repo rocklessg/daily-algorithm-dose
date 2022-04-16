@@ -14,10 +14,11 @@ namespace HackerRankAlgo
     {
         public static void Main(string[] args)
         {
-
-
-            var result = Assessment.Solution(new long[] { 6, 0, -1, 10 });
+            var result = DuplicateRemove.RemoveDuplicate("GeeksForGeeks");
             Console.WriteLine(result);
+
+            //var result = Assessment.Solution(new long[] { 6, 0, -1, 10 });
+            //Console.WriteLine(result);
 
             //var result = MaxWater.MaxArea(new int[] { 1, 8, 6, 2, 5, 4, 8, 3, 7 });
             //Console.WriteLine(result);
