@@ -70,6 +70,69 @@ namespace Miselleneous
             }
             return output.ToString();
         }
+
+        //Given an array[2, 5, 3, 6, 4, 8, 3, 7]
+        //Write a program to generate a new array
+        //Example:
+        //input=[2,3,2,1,4]
+        //ouput=[24,16,24,48,12]
+
+        public static int[] MultipleGame(int[] input)
+        {
+            int prod = 1;
+            int flag = 0;
+            int n = input.Length;
+
+            // product of all elements
+            for (int i = 0; i < n; i++)
+            {
+
+                // counting number of elements
+                // which have value
+                // 0
+                if (input[i] == 0)
+                    flag++;
+                else
+                    prod *= input[i];
+            }
+
+            // creating a new array of size n
+            int[] arr = new int[n];
+            for (int i = 0; i < n; i++)
+            {
+
+                // if number of elements in
+                // array with value 0
+                // is more than 1 than each
+                // value in new array
+                // will be equal to 0
+                if (flag > 1)
+                {
+                    arr[i] = 0;
+                }
+
+                // if no element having value
+                // 0 than we will
+                // insert product/a[i] in new array
+                else if (flag == 0)
+                    arr[i] = (prod / input[i]);
+
+                // if 1 element of array having
+                // value 0 than all
+                // the elements except that index
+                // value , will be
+                // equal to 0
+                else if (flag == 1 && input[i] != 0)
+                {
+                    arr[i] = 0;
+                }
+
+                else
+                    arr[i] = prod;
+            }
+            return arr;
+        }
+
     }
 
 }
