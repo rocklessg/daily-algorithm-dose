@@ -103,7 +103,7 @@ namespace Miselleneous
 
                 // if number of elements in
                 // array with value 0
-                // is more than 1 than each
+                // is more than 1 then each
                 // value in new array
                 // will be equal to 0
                 if (flag > 1)
@@ -118,7 +118,7 @@ namespace Miselleneous
                     arr[i] = (prod / input[i]);
 
                 // if 1 element of array having
-                // value 0 than all
+                // value 0 then all
                 // the elements except that index
                 // value , will be
                 // equal to 0

@@ -16,7 +16,7 @@ namespace HackerRankAlgo
         {
 
 
-            var result = DuplicateRemove.MultipleGame(new int[] { 2, 3, 2, 0, 4 });
+            var result = DuplicateRemove.MultipleGame(new int[] { 2, 5, 3, 6, 4, 8, 0, 7 });
             foreach (var item in result)
             {
                 Console.Write(item + " ");
