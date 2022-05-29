@@ -67,7 +67,7 @@ namespace Miselleneous
                 while (diffHundred >= listofDim[i])
                 {
                     diffHundred -= listofDim[i];
-                    count += 1; 
+                    count += 1;
                 }
                 result.Add(count);
                 count = 0;
