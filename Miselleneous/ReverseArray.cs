@@ -27,10 +27,10 @@ namespace Miselleneous
             while (number > 0)
             {
                 binaryRep = (number % 10) + binaryRep;
-                number = number / 10;
+                number /= 10;
             }
 
-            List<char> revstring = new List<char>();
+            List<char> revstring = new();
             int binaryrepLen = binaryRep.Length;
 
             for (int i = binaryrepLen - 1; i >= 0; i--)
@@ -44,7 +44,7 @@ namespace Miselleneous
                 {
                     if (binaryRep[i] == '1')
                         result += base1;
-                    base1 = base1 * 10;
+                    base1 *= 10;
                 }
             }
 
@@ -67,7 +67,7 @@ namespace Miselleneous
                 while (diffHundred >= listofDim[i])
                 {
                     diffHundred -= listofDim[i];
-                    count += 1; 
+                    count += 1;
                 }
                 result.Add(count);
                 count = 0;
