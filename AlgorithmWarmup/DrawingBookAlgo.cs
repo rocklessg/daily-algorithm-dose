@@ -43,7 +43,7 @@ namespace ProblemSolving
     turn to page , what is the minimum number of pages to turn?
     They can start at the beginning or the end of the book.
 
-    Given n and p, find and print the minimum number of pages 
+    Given n and p, find and print the minimum number of pages
     that must be turned in order to arrive at page p.
 
     Example
