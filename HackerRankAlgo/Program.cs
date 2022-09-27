@@ -3,6 +3,7 @@ using InterviewPreparationKit;
 using InterviewPreparationKit.DictAndHashmap;
 using LeetCodeAlgo;
 using Miselleneous;
+using ProblemSolving;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -14,13 +15,15 @@ namespace HackerRankAlgo
     {
         public static void Main(string[] args)
         {
+            var result = SaveThePrisoner.SaveThePrisoners(7, 19, 2);
+            Console.WriteLine(result);
 
 
-            var result = DuplicateRemove.MultipleGame(new int[] { 2, 5, 3, 6, 4, 8, 0, 7 });
-            foreach (var item in result)
-            {
-                Console.Write(item + " ");
-            }
+            //var result = DuplicateRemove.MultipleGame(new int[] { 2, 5, 3, 6, 4, 8, 0, 7 });
+            //foreach (var item in result)
+            //{
+            //    Console.Write(item + " ");
+            //}
 
             //var result = DuplicateRemove.RemoveAdjacentDuplicate("aabbaaaccdddaabbbb");
             //Console.WriteLine(result);
@@ -99,7 +102,7 @@ namespace HackerRankAlgo
 
             //MagazineCheck.CheckMagazine(new List<string> { "two", "times", "three", "is", "not", "four" }, new List<string> { "two", "times", "two", "is", "four" });
             //MagazineCheck.CheckMagazine(new List<string> { "attack", "at", "dawn" }, new List<string> { "Attack", "at", "dawn" });
-            // MagazineCheck.CheckMagazine(new List<string> { "apgo", "clm", "w", "lxkvg", "mwz", "elo", "bg", "elo", "lxkvg", "elo", "apgo", "apgo", "w", "elo", "bg" }, 
+            // MagazineCheck.CheckMagazine(new List<string> { "apgo", "clm", "w", "lxkvg", "mwz", "elo", "bg", "elo", "lxkvg", "elo", "apgo", "apgo", "w", "elo", "bg" },
             // new List<string> { "elo", "lxkvg", "bg", "mwz", "clm", "w" });
         }
 
@@ -114,8 +117,6 @@ namespace HackerRankAlgo
 
         //        return ($totalNumbers % 2) === 0 ? ($numbers[$mid - 1] + $numbers[$mid]) / 2 : $numbers[$mid];
         //    }
-
-
 
     }
 }

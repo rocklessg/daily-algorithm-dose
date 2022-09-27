@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AlgorithmWarmup\ProblemSolving.csproj" />
     <ProjectReference Include="..\Coderbyte\Coderbyte.csproj" />
     <ProjectReference Include="..\Codewars\Codewars.csproj" />
     <ProjectReference Include="..\HiredAlgo\HiredAlgo.csproj" />
