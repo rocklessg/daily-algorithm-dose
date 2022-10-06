@@ -15,9 +15,11 @@ namespace HackerRankAlgo
     {
         public static void Main(string[] args)
         {
-            var result = SaveThePrisoner.SaveThePrisoners(7, 19, 2);
+            var result = StrangeCounter.StrangeCounters(8);
             Console.WriteLine(result);
 
+            //var result = SaveThePrisoner.SaveThePrisoners(7, 19, 2);
+            //Console.WriteLine(result);
 
             //var result = DuplicateRemove.MultipleGame(new int[] { 2, 5, 3, 6, 4, 8, 0, 7 });
             //foreach (var item in result)
