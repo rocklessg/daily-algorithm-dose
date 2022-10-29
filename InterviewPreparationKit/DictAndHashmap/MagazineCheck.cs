@@ -45,7 +45,6 @@ namespace InterviewPreparationKit.DictAndHashmap
 
             Console.WriteLine(result);
             Console.ReadKey();
-            
         }
     }
 

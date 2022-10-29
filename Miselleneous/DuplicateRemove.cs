@@ -25,7 +25,6 @@ namespace Miselleneous
 
         public static string RemoveDuplicatesChar(string input1)
         {
-            
             string result = "";
 
             foreach (char item in input1)
@@ -41,7 +40,7 @@ namespace Miselleneous
         public static string RemoveDup(string str)
         {
             string result = string.Empty;
-            
+
             for (var i = 0; i < str.Length; i++)
             {
                 for (int j = i; j < str.Length; j++)

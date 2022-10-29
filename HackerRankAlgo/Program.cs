@@ -15,8 +15,23 @@ namespace HackerRankAlgo
     {
         public static void Main(string[] args)
         {
-            var result = StrangeCounter.StrangeCounters(8);
+            var result = RomanNumerals.CheckNumber(8);
+            var resul = RomanNumerals.CheckNumber(6);
+            var resu = RomanNumerals.CheckNumber(4);
+            var res = RomanNumerals.CheckNumber(50);
+            var re = RomanNumerals.CheckNumber(100);
+            var r = RomanNumerals.CheckNumber(500);
+            var s = RomanNumerals.CheckNumber(1000);
             Console.WriteLine(result);
+            Console.WriteLine(resul);
+            Console.WriteLine(resu);
+            Console.WriteLine(res);
+            Console.WriteLine(re);
+            Console.WriteLine(r);
+            Console.WriteLine(s);
+
+            //var result = StrangeCounter.StrangeCounters(8);
+            //Console.WriteLine(result);
 
             //var result = SaveThePrisoner.SaveThePrisoners(7, 19, 2);
             //Console.WriteLine(result);
