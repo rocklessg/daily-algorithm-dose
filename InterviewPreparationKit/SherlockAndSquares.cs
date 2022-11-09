@@ -8,6 +8,8 @@ namespace InterviewPreparationKit
 {
     public static class SherlockAndSquares
     {
+        // this solution is not passing all test case
+        // Due to optimixation
         public static int Squares(int a, int b)
         {
             var counter = 0;
