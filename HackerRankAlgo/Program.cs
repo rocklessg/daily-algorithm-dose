@@ -15,7 +15,7 @@ namespace HackerRankAlgo
     {
         public static void Main(string[] args)
         {
-            var result = SherlockAndSquares.Squares(100, 1000);
+            //var result = SherlockAndSquares.Squares(100, 1000);
             //var result = RomanNumerals.CheckNumber(8);
             //var resul = RomanNumerals.CheckNumber(6);
             //var resu = RomanNumerals.CheckNumber(4);
@@ -23,7 +23,7 @@ namespace HackerRankAlgo
             //var re = RomanNumerals.CheckNumber(100);
             //var r = RomanNumerals.CheckNumber(500);
             //var s = RomanNumerals.CheckNumber(1000);
-            Console.WriteLine(result);
+            // Console.WriteLine(result);
             //Console.WriteLine(resul);
             //Console.WriteLine(resu);
             //Console.WriteLine(res);
@@ -62,6 +62,12 @@ namespace HackerRankAlgo
             //    Console.Write(item + " ");
             //}
 
+            var nums = new int[] { 10, 5, 20, 20, 4, 5, 2, 1 };
+            UnderHoodOfSortingElements.BubbleSort(nums);
+            //foreach (var item in result)
+            //{
+            //    Console.Write(item + " ");
+            //}
 
             //var nums = new List<string> { "Banana", "Higland", "Mango", "Lia", "Campala", "Santana" }.ToArray();
             //var result = ReverseArray.ArrayReverseUnderTheHood(nums);
