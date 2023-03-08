@@ -8,29 +8,29 @@ namespace Miselleneous
 {
     public class UnderHoodOfSortingElements
     {
-        public static List<int> SortArray(List<int> listToSort)
-        {
-            var sortedList = new List<int>();
-            //int firstIndex = listToSort.First();
-            int firstIndex = listToSort.Max();
+        //public static List<int> SortArray(List<int> listToSort)
+        //{
+        //    var sortedList = new List<int>();
+        //    //int firstIndex = listToSort.First();
+        //    int firstIndex = listToSort.Max();
 
-            for (var i = 0; i < listToSort.Count; i++)
-            {
-                if (listToSort[i] <= firstIndex && !sortedList.Contains(listToSort[i]))
-                {
-                    firstIndex = listToSort[i];
-                    sortedList.Add(listToSort[i]);
-                }
-                else
-                {
-                    //sortedList.Add(listToSort[i]);
-                    firstIndex = listToSort[i];
-                    //continue;
-                }
-            }
-            return sortedList;
+        //    for (var i = 0; i < listToSort.Count; i++)
+        //    {
+        //        if (listToSort[i] <= firstIndex && !sortedList.Contains(listToSort[i]))
+        //        {
+        //            firstIndex = listToSort[i];
+        //            sortedList.Add(listToSort[i]);
+        //        }
+        //        else
+        //        {
+        //            //sortedList.Add(listToSort[i]);
+        //            firstIndex = listToSort[i];
+        //            //continue;
+        //        }
+        //    }
+        //    return sortedList;
 
-        }
+        //}
 
         public static void BubbleSort(int[] arr)
         {
