@@ -10,7 +10,6 @@ namespace HackerRankAlgo
     {
         public static void StairCCase(int n)
         {
-            
             var message = string.Empty;
             for (int i = 1; i <= n; i++)
             {
