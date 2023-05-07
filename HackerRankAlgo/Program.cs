@@ -1,6 +1,7 @@
 ﻿using HiredAlgo;
 using InterviewPreparationKit;
 using InterviewPreparationKit.DictAndHashmap;
+using InterviewPreparationKit.StringManipulation;
 using LeetCodeAlgo;
 using Miselleneous;
 using ProblemSolving;
@@ -15,6 +16,8 @@ namespace HackerRankAlgo
     {
         public static void Main(string[] args)
         {
+            var result = CommonChildString.CommonChild("ABCDEF", "FBDAMN");
+            Console.WriteLine(result);
             //var result = SherlockAndSquares.Squares(100, 1000);
             //var result = RomanNumerals.CheckNumber(8);
             //var resul = RomanNumerals.CheckNumber(6);
@@ -62,8 +65,8 @@ namespace HackerRankAlgo
             //    Console.Write(item + " ");
             //}
 
-            var nums = new int[] { 10, 5, 20, 20, 4, 5, 2, 1 };
-            UnderHoodOfSortingElements.BubbleSort(nums);
+            //var nums = new int[] { 10, 5, 20, 20, 4, 5, 2, 1 };
+            //UnderHoodOfSortingElements.BubbleSort(nums);
             //foreach (var item in result)
             //{
             //    Console.Write(item + " ");
