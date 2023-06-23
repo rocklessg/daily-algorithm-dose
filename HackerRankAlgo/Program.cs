@@ -16,8 +16,14 @@ namespace HackerRankAlgo
     {
         public static void Main(string[] args)
         {
-            var result = CommonChildString.CommonChild("ABCDEF", "FBDAMN");
+
+            var result = TwentyPercentSalary.GetTotalSalary(229565.22);
             Console.WriteLine(result);
+
+            //var result = CommonChildString.CommonChild("ABCDEF", "FBDAMN");
+            //Console.WriteLine(result);
+
+
             //var result = SherlockAndSquares.Squares(100, 1000);
             //var result = RomanNumerals.CheckNumber(8);
             //var resul = RomanNumerals.CheckNumber(6);
